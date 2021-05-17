@@ -1,0 +1,116 @@
+<!-- Using HTML5 -->
+<!DOCTYPE html>
+<!-- Website primary language is english -->
+<html lang="en">
+
+<head>
+    <!-- Meta datas of this website -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="website, blog, portfolio, technology">
+    <meta name="author" content="">
+    <meta name="publisher" content="">
+    <meta name="copyright" content="">
+    <meta name="description" content="This is a portfolio website and blogging website">
+    <meta name="page-type" content="Blogging">
+    <!-- CSS,font awesome and other important links -->
+    <link rel="stylesheet" type="text/css" href="CSSs/style.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/contacts.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/media.css">
+    <!-- Favicon of Website -->
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <!-- Font awesome link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <!-- Nav bar logo -->
+        <div id="logo">
+        </div>
+        <h2>Portfolio</h2>
+
+        <div id="links">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Homepage</a></li>
+                <li><a href="me.html"><i class="fa fa-user-circle" aria-hidden="true"></i> About me</a></li>
+                <li><a href="blogs.html"><i class="fa fa-book" aria-hidden="true"></i> Blog</a></li>
+                <li><a href="research.html"><i class="fa fa-search" aria-hidden="true"></i> Research</a></li>
+                <li><a href="contacts.html"><i class="fa fa-address-book" aria-hidden="true"></i> Contacts</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" id="barOpener"></i>
+    </nav>
+    <section>
+        <div id="overlay"></div>
+        <div id="contactContainer">
+            <div id="contactLists">
+                <ul>
+                    <h3>Contact Details:</h3>
+                    <li><i class="fas fa-map-marker-alt"></i>Sunsari,Nepal</li>
+                    <li><i class="fas fa-phone-alt"></i>+97798XXXXXXXX</li>
+                    <li><i class="fas fa-envelope"></i>xyz@xyz.com</li>
+                </ul>
+            </div>
+            <div id="contactFormCon">
+                <form>
+                    <fieldset>
+                        <legend>Send your message from here</legend>
+                        <input type="text" name="firstName" placeholder="First Name"> <br>
+                        <span class="error">Error here</span>
+                        <input type="text" name="lastName" placeholder="Last Name"> <br>
+                        <span class="error">Error here</span>
+                        <input type="text" name="email" placeholder="email"> <br>
+                        <span class="error">Error here</span>
+                        <textarea name="message" placeholder="message..."></textarea> <br>
+                        <span class="error">Error here</span>
+                        <input type="submit" name="submit" value="Send Message">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="siteLinks">
+            <h3>Site Links</h3>
+            <ul>
+                <li class="footerLinks"><a href="">Blog</a></li>
+                <li class="footerLinks"><a href="">About me</a></li>
+                <li class="footerLinks"><a href="">Research</a></li>
+                <li class="footerLinks"><a href="">Contacts</a></li>
+            </ul>
+        </div>
+        <div id="socialMedia">
+            <div id="footerLogo"></div>
+            <div id="socialLinksCon">
+                <h3>Follow me on social medias</h3>
+                <ul>
+                    <li class="socialLinks">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="socialLinks">
+                        <a href=""><i class="fab fa-twitter-square"></i></i></a>
+                    </li>
+                    <li class="socialLinks">
+                        <a href=""><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li class="socialLinks">
+                        <a href=""><i class="fab fa-google-plus-square"></i></a>
+                    </li>
+                    <li class="socialLinks">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <noscript>Please enable JavaScript in Your browser for this page to properly function</noscript>
+    <script src="./JSs/navBar.js"></script>
+    <script src="./JSs/script.js"></script>
+</body>
+
+</html>

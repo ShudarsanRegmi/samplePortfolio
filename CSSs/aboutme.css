@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+#meContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#desc {
+    /* background: yellow; */
+    background-image: url("https://i.pinimg.com/originals/bf/33/c1/bf33c1a0218b05e7076ea2c93e3a38ea.jpg");
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px;
+    border: 1px solid black; */
+}
+
+#desc>h2 {
+    background-color: lightyellow;
+    opacity: 0.9;
+    /* max-width: 45%; */
+    text-align: center;
+    padding: 0px 30px;
+}
+
+
+/*  */
+
+#desc>p {
+    background-color: lightyellow;
+    max-width: 650px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+#cvCon {
+    display: flex;
+    min-height: 200px;
+    background-color: linen;
+    border: 1px solid black;
+    padding: 20px;
+    justify-content: center;
+    background-image: url("https://image.freepik.com/free-photo/workspace-workplace-office-table_144627-40145.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cv {
+    display: block;
+    padding: 10px;
+    max-width: 650px;
+    background-color: lightyellow;
+}
+
+.cvHeadings {
+    font-weight: 800;
+    display: block;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 10px 0px;
+}
+
+.cvItems {
+    display: inline;
+}
+
+.cvTopics {
+    display: inline;
+    font-weight: 600;
+}
+
+.onelines {
+    display: block;
+}
+
+#cv {
+    border: 1px solid black;
+}
+
+#cv>h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}

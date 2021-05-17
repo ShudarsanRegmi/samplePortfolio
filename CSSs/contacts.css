@@ -1,0 +1,79 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-address-customer-service-call-center-contact-us-concept_20693-208.jpg?size=626&ext=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: 1; */
+}
+
+#contactContainer {
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    min-width: 10px;
+    padding: 5px;
+    z-index: 2;
+}
+
+#contactLists {
+    /* background-color: yellow; */
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contactLists>ul {
+    list-style-type: none;
+}
+
+#contactLists>ul>h3 {
+    text-decoration: underline;
+}
+
+#contactLists>ul>li {
+    margin: 5px;
+    margin-top: 30px;
+}
+
+#contactLists>ul>li>i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 280px;
+}
+
+input[name="submit"] {
+    margin: 5px;
+    width: 280px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border: 0px solid;
+    border-radius: 2px;
+    background-color: rgb(24, 119, 242);
+    color: #fff;
+    cursor: pointer;
+}
+
+.error {
+    display: block;
+    margin-left: 5px;
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+
+legend {
+    font-size: 13px;
+    color: #000;
+}

@@ -1,0 +1,33 @@
+The guidelines for the Website are given below:
+
+o	Students are required to make a portfolio website with at least 5 web pages including CV and blogs explaining how technology has affected them in their daily lives. The website also needs to include a research section where the students need to look into at least 5 different web pages as reference for their website and compare their website with them (Hint: look into peculiar web components that their website possesses than others).  
+
+▪	Research section should display and contrast the components used by the student on their website against the website that are investigated for research purposes.
+
+o	Website needs to be consistent with a proper navigation bar; allowing the user to fully navigate to all the sections of the webpage.
+
+o	Technologies to be used: HTML5, CSS3 and JavaScript.
+
+o	There also needs to be proper use of html tags such as title, meta, img, table, div, form and should implement proper tag nesting.
+
+▪	There needs to be proper usage of attributes and comments.
+▪	All the code should also be properly formatted and structured well.
+
+o	Internal, inline and external CSS should be used.
+
+▪	Proper justification for the usage of different CSS.
+▪	Comments should be present before all the major CSS element targets.
+
+o	JavaScript should be used to dynamically change the content of the website and do other tasks such as form validation. 
+
+o	The HTML, CSS, JavaScript, and image files need to be properly site structured with proper naming convention. 
+
+▪	Storage of files should be in proper folder structure.
+
+o	Comments should be included in every file.
+
+▪	Functions in JavaScript and logical division/separation in HTML documents must be well-explained with comments.
+
+o	Code should be well-structured.
+
+▪	Presence of all the elements of a basic HTML document
