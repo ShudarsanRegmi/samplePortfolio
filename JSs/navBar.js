@@ -39,3 +39,7 @@ switch (page) {
         navButtons[4].style.backgroundColor = "red";
         break;
 }
+// making preloader in this file because all html pages are linked to this script
+window.onload = function() {
+    document.getElementById("bodyOverlay").style.display = "none";
+}
