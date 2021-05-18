@@ -49,12 +49,17 @@ nav>#logo {
     background-repeat: no-repeat;
 }
 
-nav>h2 {
+nav>.pageInfo>h2 {
     color: #fff;
-    line-height: 50px;
     margin-left: 5px;
     font-family: 'Goblin One', cursive;
     text-decoration: underline;
+}
+
+nav>.pageInfo>h3 {
+    /* line-height: 50px; */
+    font-size: 12px;
+    margin-left: 5px;
 }
 
 nav>#links {
@@ -142,6 +147,11 @@ section>#container {
 section>#container>#text>h2 {
     color: #fff;
     margin: 10px;
+}
+
+#subHeading {
+    display: inline;
+    animation: 3s;
 }
 
 section>#container>#text>p {
